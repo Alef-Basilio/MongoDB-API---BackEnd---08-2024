@@ -33,9 +33,11 @@ app.post("/", async (req, res) => {
 })
 
 app.put("/:_id", async (req, res) => {
-    const item = await Data.findByIdAndUpdate(req.params._id, req.body, { new: true });
+    const item = await Data.findByIdAndUpdate(req.params._id, req.body);
     return res.send(item);
-})
+}), {
+    new: true
+}
 
 app.delete("/:_id", async (req, res) => {
     const item = await Data.findOneAndDelete({ _id: req.params._id });
