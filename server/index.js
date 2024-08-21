@@ -8,7 +8,7 @@ app.use(express.json());
 app.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
-    res.header("Access-Control-Allow-Headers", "Content-Type, Accept, X-Requested-With");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Access-Control-Allow-Origin");
     
     next();
 });
@@ -33,11 +33,9 @@ app.post("/", async (req, res) => {
 })
 
 app.put("/:_id", async (req, res) => {
-    const item = await Data.findByIdAndUpdate(req.params._id, req.body);
+    const item = await Data.findByIdAndUpdate(req.params._id, req.body, { new: true });
     return res.send(item);
-}), {
-    new: true
-}
+})
 
 app.delete("/:_id", async (req, res) => {
     const item = await Data.findOneAndDelete({ _id: req.params._id });
@@ -46,5 +44,4 @@ app.delete("/:_id", async (req, res) => {
 
 app.listen(port, () => {
     mongoose.connect("mongodb+srv://corujadanoite:I2JrvLI7ALqfZeZb@cluster0.gaiyihx.mongodb.net/testdb?retryWrites=true&w=majority&appName=Cluster0");
-    console.log(`Example app listening on port ${port}`);
 })
