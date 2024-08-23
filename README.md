@@ -35,7 +35,7 @@ Topics:
 
 
 <h2 id="tech" align="center">Technologies</h2>
-Node.js, JS and Jquery.
+Node.js and JS.
 
 ### DATABASE:
 MongoDB.
