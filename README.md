@@ -1,9 +1,6 @@
 <h2 align="center">Deploy link:</h2>
 
-If you want to test:
-@[MongoDB CRUD](https://node-front-iota.vercel.app/)
-Or just see:
-@[MongoDB API](https://nodeback-4zha.onrender.com)
+If you want to test: @[MongoDB CRUD](https://node-front-iota.vercel.app/) or just see: @[MongoDB API](https://nodeback-4zha.onrender.com)
 
 ```
 https://node-front-iota.vercel.app/
