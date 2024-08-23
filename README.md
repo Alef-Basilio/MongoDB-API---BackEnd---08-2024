@@ -1,6 +1,6 @@
 <h2 align="center">Deploy link:</h2>
 
-The MongoDB API repository: [Alef-Basilio/MongoDB-API---BackEnd---08-2024](https://github.com/Alef-Basilio/MongoDB-API---BackEnd---08-2024)
+The MongoDB CRUD repository: [Alef-Basilio/MongoDB-CRUD---FrontEnd---08-2024](https://github.com/Alef-Basilio/MongoDB-CRUD---FrontEnd---08-2024)
 </br>
 
 If you want to test: @[MongoDB CRUD](https://node-front-iota.vercel.app/) or just see: @[MongoDB API](https://nodeback-4zha.onrender.com)
