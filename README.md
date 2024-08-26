@@ -44,7 +44,7 @@ MongoDB.
 <h2 id="how" align="center">How was made</h2>
 Using technologies linked to JavaScript to create a server and make queries.
 </br>
-Separating the front and the back by the Render website web service.
+Separating the front and the back by the Render website web service and Vercel.
 
 
 <h2 id="obj" align="center">Objective</h2>
