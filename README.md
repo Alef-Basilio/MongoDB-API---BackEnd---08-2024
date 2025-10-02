@@ -19,6 +19,8 @@ Once you can access the JSON from the backend above, access the frontend next:
 https://mongodbcrud-backend-f8fole6uw-alef-basilios-projects.vercel.app/
 ```
 
+The front-end GitHub repository: [MongoDB CRUD](https://github.com/Alef-Basilio/MongoDB-CRUD---FrontEnd---08-2024)
+
 
 <h1 align="center" style="color: #805ad5; font-weight: bold;">MongoDB API</h1>
 <p align="center">
