@@ -1,16 +1,22 @@
-<h2 align="center">Deploy link:</h2>
-
-The MongoDB CRUD repository: [Alef-Basilio/MongoDB-CRUD---FrontEnd---08-2024](https://github.com/Alef-Basilio/MongoDB-CRUD---FrontEnd---08-2024)
+<h2 align="center">How to access the deploy running the backend:</h2>
+First access the API so that the Render site can "activate" the backend:
 </br>
 
-If you want to test: @[MongoDB CRUD](https://mongodbcrud-backend-f8fole6uw-alef-basilios-projects.vercel.app/) or just see (this one takes a few minutes to work): 
 @[MongoDB API](https://nodeback-4zha.onrender.com)
 
 ```
-https://mongodbcrud-backend-f8fole6uw-alef-basilios-projects.vercel.app/
-```
-```
 https://nodeback-4zha.onrender.com
+```
+If this is your first API access of the day, this may take several minutes.
+</br>
+
+Once you can access the JSON from the backend above, access the frontend next:
+</br>
+
+@[MongoDB CRUD](https://mongodbcrud-backend-f8fole6uw-alef-basilios-projects.vercel.app/)
+
+```
+https://mongodbcrud-backend-f8fole6uw-alef-basilios-projects.vercel.app/
 ```
 
 
@@ -45,7 +51,7 @@ MongoDB.
 <h2 id="how" align="center">How was made</h2>
 Using technologies linked to JavaScript to create a server and make queries.
 </br>
-Separating the front and the back by the Render website web service and Vercel.
+Separating the front-end and the back-end by the Render website web service and Vercel.
 
 
 <h2 id="obj" align="center">Objective</h2>
